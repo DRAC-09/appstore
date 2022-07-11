@@ -1,11 +1,11 @@
-@font-face {
+/* @font-face {
     font-family: 'principal';
     src: url('/webfonts/fa-solid-900.ttf');
-}
+} */
 
 body {
     padding-top: 5rem;
-    font-family: 'principal';
+    font-family: 'Cairo', sans-serif;
 }
 .starter-template {
     padding: 3rem 1.5rem;
@@ -23,13 +23,12 @@ body {
 
 #listaCategorias {
     font-size: 25px !important;
+    font-weight: semi-bold;
     width: 100%;
     height: 50px;
-    font-size: 30px;
     color: #49505C;
     border-color: #49505c3a !important;
     border-radius: 5px;
-    padding: 8px !important;
 }
 
 #aplicaciones{
